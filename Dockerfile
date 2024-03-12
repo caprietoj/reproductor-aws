@@ -45,7 +45,7 @@ RUN npm install
 RUN npm run build
 
 # Ejecuta migraciones de Laravel
-RUN php artisan migrate
+# RUN php artisan migrate
 
 # Comando para iniciar Laravel Octane con Swoole
 CMD php artisan octane:start --server="swoole" --host="0.0.0.0"
