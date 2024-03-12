@@ -28,7 +28,7 @@
 
         <!-- Reproductor de video a la derecha -->
         <div class="video-player w-3/4 p-4">
-            <h1 class="course-title text-xl font-bold mb-4">Curso de Node.js</h1>
+            <!-- <h1 class="course-title text-xl font-bold mb-4">Curso de Node.js</h1> -->
             <video id="videoPlayer" controls autoplay muted ="w-full">
                 <source src="https://cursonodejs.s3.amazonaws.com/1.+Introducci%C3%B3n/1.+Introducci%C3%B3n.mp4" type="video/mp4"> <!-- Asegúrate de iniciar esto con un video por defecto o dejarlo vacío -->
                 Tu navegador no soporta videos HTML5.
